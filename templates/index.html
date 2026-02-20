@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Predicción por audio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  <script src="{{ url_for('static', filename='index.js') }}"></script>
+
+
+</head>
+<body>
+  <div class="card">
+    <h1>Predicción de abandono desde audio</h1>
+    <p class="muted">Selecciona un audio y pulsa “Predecir”. (El servidor Python hace la transcripción y la predicción).</p>
+
+    <div class="row">
+      <input id="audio" type="file" accept=".wav,.mp3,.m4a,audio/*" />
+      <button id="btn">Predecir</button>
+      <span id="status" class="muted"></span>
+    </div>
+
+    <div id="error" class="err"></div>
+
+    <table>
+      <tr><td>Edad</td><td id="edad">—</td></tr>
+      <tr><td>Faltas</td><td id="faltas">—</td></tr>
+      <tr><td>Nota</td><td id="nota">—</td></tr>
+      <tr><td>Repite</td><td id="repite">—</td></tr>
+      <tr><td>Trabaja</td><td id="trabaja">—</td></tr>
+      <tr><td>Horas</td><td id="horas">—</td></tr>
+      <tr><td>Motivación</td><td id="motivacion">—</td></tr>
+    </table>
+
+    <div id="pred" class="pred">—</div>
+    
+  </div>
+</body>
+</html>

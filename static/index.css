@@ -1,0 +1,92 @@
+body{ 
+    font-family: Arial, sans-serif; /*Fuente de todo el cuerpo*/
+    background:#f4f6fb; /*Color del fondo*/
+    padding:20px;/*Padding del cuerpo*/
+}
+.card{ 
+    max-width:720px; /* Ancho máximo de la tarjeta */
+    margin:0 auto; /* Centra la tarjeta horizontalmente */
+    background:#fff; /* Color de fondo blanco */
+    border:1px solid #e5e7ef; /* Borde fino gris claro */
+    border-radius:14px; /* Bordes redondeados */
+    padding:18px; /* Espacio interior */
+}
+
+h1{ 
+    margin:0 0 10px; /* Margen inferior de 10px */
+    font-size:20px; /* Tamaño de la fuente */
+}
+
+.muted{ 
+    color:#667; /* Color de texto gris */
+    font-size:13px; /* Tamaño de fuente más pequeño */
+}
+
+.row{ 
+    display:flex; /* Activa flexbox */
+    gap:10px; /* Espacio entre elementos */
+    flex-wrap:wrap; /* Permite que bajen a otra línea */
+    align-items:center; /* Alineación vertical centrada */
+    margin:14px 0; /* Margen arriba y abajo */
+}
+
+button{ 
+    padding:10px 14px; /* Espacio interior */
+    border-radius:10px; /* Bordes redondeados */
+    border:1px solid #d9dcec; /* Borde gris claro */
+    background:#111827; /* Fondo oscuro */
+    color:#fff; /* Texto blanco */
+    cursor:pointer; /* Cambia el cursor al pasar por encima */
+}
+
+button:disabled{ 
+    opacity:.6; /* Reduce la opacidad */
+    cursor:not-allowed; /* Cursor de prohibido */
+}
+
+input{ 
+    padding:8px; /* Espacio interior */
+    border-radius:10px; /* Bordes redondeados */
+    border:1px solid #d9dcec; /* Borde gris claro */
+    background:#fff; /* Fondo blanco */
+}
+
+table{ 
+    width:100%; /* Ocupa todo el ancho */
+    border-collapse:collapse; /* Une los bordes de la tabla */
+    margin-top:10px; /* Margen superior */
+}
+
+td{ 
+    padding:6px 0; /* Espacio vertical */
+    border-bottom:1px dashed #e7e9f3; /* Línea inferior discontinua */
+}
+
+td:first-child{ 
+    color:#556; /* Color del primer td */
+    width:45%; /* Ancho del 45% */
+}
+
+.pred{ 
+    font-weight:bold; /* Texto en negrita */
+    padding:8px 12px; /* Espacio interior */
+    border-radius:10px; /* Bordes redondeados */
+    display:inline-block; /* Permite padding y margen */
+    margin-top:10px; /* Margen superior */
+}
+
+.alta{ 
+    background:#fff1f0; /* Fondo rojo claro */
+    color:#b42318; /* Texto rojo oscuro */
+    border:1px solid #ffd2cf; /* Borde rojo claro */
+}
+
+.baja{ 
+    background:#ecfdf3; /* Fondo verde claro */
+    color:#067647; /* Texto verde oscuro */
+    border:1px solid #b7f0d0; /* Borde verde claro */
+}
+
+.err{ 
+    color:#b42318; /* Color rojo para errores */
+}

@@ -1,0 +1,6 @@
+flask #servidor web
+gunicorn #obligatorio en render, servidor de produccion
+pandas # df
+scikit-learn # prediccion
+deepgram-sdk #usar el deepgram
+python-dotenv # .env en local
