@@ -4,3 +4,4 @@ pandas # df
 scikit-learn # prediccion
 deepgram-sdk #usar el deepgram
 python-dotenv # .env en local
+requests
